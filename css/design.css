@@ -116,5 +116,8 @@
         .form-field {
                 width: 300px;
         }
+        .form-container .icon {
+          margin: 40px 0px;
+        }
        
  }
