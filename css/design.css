@@ -23,7 +23,7 @@
  .form-container {
         background-color: #14202C;
         width: 90%;
-        min-height: 600px;
+        min-height: 550px;
         border-radius: 12px;
         display: flex;
         flex-flow: column nowrap;
