@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+        <meta charset="UTF-80">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>
+                A simple login form
+        </title>
+        <head>
+                <link rel="stylesheet" href="./css/design.css">
+                <script src="./js/validate.js" defer="true"></script>
+        </head>
+        <body>
+                <div class="view">
+                        <div class="form-container">
+                                <form action=" " method="post" onsubmit="validate_form(event , this)">  
+                                <div class="icon">
+                                        <img src="./asset/icon/form_page_icon.jpg" alt="avatar" width="100px" height="100px">
+                                </div>
+                                <div class="form-field">
+                                        <input type="text" name="email" placeholder="Enter your email">
+                                        <p class="error" id="emailErr"></p>
+                                </div>
+                                <div class="form-field">
+                                        <input type="password" name="password" placeholder="Enter your password">
+                                        <p class="error" id="pswErr"></p>
+                                </div>
+                                <div class="form-field reset">
+                                        <p><a href="#">reset password</a></p>
+                                </div>
+                                <div class="form-field btn">
+                                        <input type="submit" value="Signin" class="sign-in">
+                                </div>
+                                <div class="form-field btn">
+                                        <button class="btn-fb"><a href="#">Sign in with facebook</a></button>
+                                </div>
+                                <div class="form-field btn">
+                                        <button class="btn-google"><a href="#">Sign in with google</a></button>
+                                </div>
+                                </form>
+                        </div>
+                       
+                </div>
+        </body>
+        </html>
